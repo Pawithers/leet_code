@@ -24,7 +24,7 @@ set(CMAKE_BUILD_TYPE Debug)
 # Other common choices are STATIC, SHARED, and MODULE
 # Including header files here helps IDEs but is not required.
 # Output libname matches target name, with the usual extensions on your system
-add_library(common_libs add_two_numbers.cpp palindrome.cpp)
+add_library(common_libs LeetCode.cpp)
 
 # Link each target with other targets or add options, etc.
 

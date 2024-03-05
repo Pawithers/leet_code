@@ -5,8 +5,9 @@
      ListNode(int x) : val(x), next(nullptr) {}
      ListNode(int x, ListNode *next) : val(x), next(next) {}
  };
-
- class Solution {
+class LeetCode_Problems 
+{
 public:
+    bool isPalindrome(int x);
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2);
 };

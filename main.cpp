@@ -1,10 +1,9 @@
 #include <iostream>
-#include "add_two_numbers.h"
-#include "palindrome.h"
+#include "LeetCode.h"
 
 int main(int argc, char *argv[]) 
 {
-    LeetCode_Palindrome ans;
+    LeetCode_Problems ans;
     ans.isPalindrome(10);
     return 0;
 }
